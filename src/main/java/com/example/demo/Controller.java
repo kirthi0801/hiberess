@@ -14,7 +14,7 @@ public class Controller {
 	@Autowired
 	BookSerInt bs;
 
-	@GetMapping(value = "/getProd")
+	@GetMapping(value = "/getProds")
 	public List<Book> getProd() {
 
 		return bs.get();
